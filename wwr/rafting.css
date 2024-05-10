@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+  --paragraph-font: Urbanist;  
+  --primary-color: #0D1321;
+  --secondary-color: #F0EBD8;
+  --accent-color: #1D2D44;
+  --heading-font: Montserrat 700;
+  --navigation-background-color: #F0EBD8;
+  --navigation-link-color: rgb(0, 128, 255);
+  --navigation-hover-link-color: rgb(0, 76, 255);
+  --navigation-hover-background-color: rgb(193, 191, 191);
+
+}
+
+
+body{
+    max-width: 960px;
+}
+
+h1{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+.hero article{
+    background-color: rgba(0, 47, 29, 0.608);
+    position: absolute;
+    top: 300px;
+    color: white;
+    padding: 4rem;
+}
+.hero article img{
+    width: 10rem;
+    float: right;
+    height: auto;
+    
+}
+.hero h1{
+    position: absolute;
+    top: 50px;
+    text-align: center;
+    left: 300px;
+    background-color: #0d132194;
+    color: white;
+    padding: 1rem 5rem;
+    border-radius: 20px;
+
+}
+p{
+    font-family: var(--paragraph-font);
+
+}
+.hero{
+    position: relative;
+}
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+}
