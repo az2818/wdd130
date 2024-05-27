@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: urbanist;
+    font-size: 1rem;
+}
+
+header{
+    text-align: center;
+    color: black;
+
+}
+form {
+    display: grid;
+    grid-template-rows: 1fr;
+    margin: 0 auto;
+    padding: 5rem;
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    border: 1px orange solid;
+    border-radius: 1rem;
+
+}
+
+.questions {
+    display: grid;
+    grid-template-rows: 1fr;
+    margin-top: 2rem;
+}
+
+input, select, textarea {
+    border: 1px lightgray solid;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+button {
+    margin-top: 2rem;
+    background-color: navy;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+p {
+    background-color: orange;
+    margin: 0 4rem 0.5rem 4rem;
+    padding: 1rem;
+
+}
