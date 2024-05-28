@@ -233,7 +233,7 @@ footer {
     text-align: center;
     font-size: 1.3rem;
     padding: 2rem;
-    border-radius: 2rem;
+    border-radius: 2rem 2rem 0 0;
 }
 
 .contactinfo h1 {
