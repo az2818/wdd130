@@ -198,9 +198,11 @@ footer {
 .form_img {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 2rem;
     background-color: white;
-    width: 700px;
     margin: 0 auto;
+    background-color: var(--primary-color);
+    padding: 2rem;
 }
 
 .employees {
@@ -224,6 +226,7 @@ footer {
     border: none;
     display: grid;
     grid-template-columns: 1fr;
+    color: white;
 
 }
 
@@ -384,3 +387,104 @@ footer a {
     color: black;
     text-align: center;
 }
+
+.landingpage {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.landingpage img {
+    width: 100%;
+    background-size: cover;
+
+}
+
+.landing-img-cont {
+    background-color: black;
+}
+
+.landing-img {
+    opacity: 0.3;
+    height: 700px;
+}
+
+.landingpage-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 1rem;
+    margin: 0 auto;
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1rem;
+    z-index: 5;
+    color: white;
+}
+
+.landingpage-info a {
+    grid-column: 1 / span 2;
+}
+.trips-button {
+    padding: 1rem 2.5rem;
+    border: none;
+    border-radius: 1rem;
+}
+.landing-title {
+    text-align: left;
+    padding: 1rem;
+    
+}
+
+.landing-newsletter {
+    text-align: left;
+    padding: 1rem;
+    width: 100%;
+    display: grid;
+    color: white;
+}
+
+.landing-newsletter form {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.landing-newsletter input{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    border: lightgray;
+    
+}
+
+.newletter-input {
+    background-color: transparent;
+}
+
+.submit{
+    background-color: var(--secondary-color);
+}
+
+.submit:hover {
+    background-color: var(--navigation-hover-background-color);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .image1, .image2 {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .image1 img, .image2 img {
+    width: 100%;
+    height: auto;
+  }
+
